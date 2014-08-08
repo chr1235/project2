@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	
-</body>
-</html>
+<?php
+function set_count($file_name = 'counter.txt'){
+	if(file_exists($file_name)){
+
+	}else{
+		$handle = fopen($file_name, 'w+');
+		fwrite($handle, 1)
+		fclose($handle);
+	}
+}
+
+set_count();
+
+require 'index.tmpl.php';
