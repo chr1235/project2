@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 0
 contador
+=======
+99
+counter
+>>>>>>> c518f7e235d8a6589da4df581a9c5156b53a06e3
